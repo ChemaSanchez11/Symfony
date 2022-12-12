@@ -20,7 +20,7 @@
 | [`maker-bundle`] | composer require symfony/maker-bundle --dev |
 | [`orm-pack`]     | composer require symfony/orm-pack |
 | [`twig`]     | composer require twig |
-| [database]       | php bin/console doctrine:database:create | "en .env primero añadir DATABASE_URL="mysql://root@127.0.0.1:3306/blog_symfony""
+| [`database`]     | php bin/console doctrine:database:create => 'en .env primero añadir DATABASE_URL="mysql://root@127.0.0.1:3306/blog_symfony"' |
 
 ## 🤖 Comandos
 | Nombre | Comando |
