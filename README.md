@@ -19,8 +19,9 @@
 | [`Proyecto`]     | symfony new symfony |
 | [`maker-bundle`] | composer require symfony/maker-bundle --dev |
 | [`orm-pack`]     | composer require symfony/orm-pack |
-| [`twig`]     | composer require twig |
+| [`twig`]         | composer require twig |
 | [`database`]     | php bin/console doctrine:database:create => 'en .env primero añadir DATABASE_URL="mysql://root@127.0.0.1:3306/blog_symfony"' |
+| [`crud`]     | php bin/console make:crud entidad
 
 ## 🤖 Comandos
 | Nombre | Comando |
