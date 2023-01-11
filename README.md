@@ -31,10 +31,12 @@
 | [`Servidor`]     | symfony server:start |
 
 ## Login
-| [`security`]    | composer require security
-| [`user`]        | php bin/console make:user
-| [`auth`]        | php bin/console make:auth
-| [`form-validator`] | composer require form-validator
+| Nombre | Comando |
+| --- | --- |
+| [`security`]          | composer require security
+| [`user`]              | php bin/console make:user
+| [`auth`]              | php bin/console make:auth
+| [`form-validator`]    | composer require form-validator
 | [`registration-form`] | php bin/console make:registration-form
 
 ![markdown](https://symfony.com/doc/master/cloud/_images/new-symfony-welcome-page.png)
