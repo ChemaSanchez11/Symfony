@@ -16,7 +16,7 @@
 | [`RemoteSigned`] | Set-ExecutionPolicy RemoteSigned -Scope CurrentUser |
 | [`Scoop`]        | Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh') |
 | [`symfony-cli`]  | scoop install symfony-cli |
-| [`Proyecto`]     | symfony new symfony |
+| [`Proyecto`]     | symfony new concesionario --webapp |
 | [`maker-bundle`] | composer require symfony/maker-bundle --dev |
 | [`orm-pack`]     | composer require symfony/orm-pack |
 | [`twig`]         | composer require twig |
