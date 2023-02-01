@@ -29,6 +29,8 @@
 | [`Modelo`]       | php bin/console make:entity => php bin/console make:migration => php bin/console doctrine:migrations:migrate|
 | [`Controlador`]  | php bin/console make:controller |
 | [`Servidor`]     | symfony server:start |
+| [`Base de Datos`] | php bin/console doctrine:schema:update --complete --force
+
 
 ## Login
 | Nombre | Comando |
